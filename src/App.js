@@ -14,7 +14,7 @@ function App() {
     setFormData({ ...formData, [name]: value });
   };
 
-  const { firstName, lastName } = useSelector((store) => store.userSliceInfo);
+  const { firstName, lastName } = useSelector((store) => store?.userSliceInfo);
 
   console.log("firstName", firstName);
   console.log("lastName", lastName);
