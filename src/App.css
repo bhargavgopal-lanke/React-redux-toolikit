@@ -41,3 +41,9 @@
   max-width: 35%;
   margin: 20% auto;
 }
+
+.error-msg {
+  color: red;
+  font-weight: bold;
+}
+
