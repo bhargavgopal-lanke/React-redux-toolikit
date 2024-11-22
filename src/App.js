@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div className="react-form">
-      <div className="form-group mb-3 ">
+      <div className="form-group mb-3">
         <label class="form-label">First Name</label>
         <input
           type="text"
@@ -34,7 +34,7 @@ function App() {
           }}
         />
       </div>
-      <div className="form-group mb-3 ">
+      <div className="form-group mb-3">
         <label class="form-label">Last Name</label>
         <input
           type="text"
@@ -47,7 +47,9 @@ function App() {
           }}
         />
       </div>
-      <button type="submit" className="btn btn-primary">Submit</button>
+      <button type="submit" className="btn btn-primary">
+        Submit
+      </button>
     </div>
   );
 }
