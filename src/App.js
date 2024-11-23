@@ -7,6 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import { validate } from "./helper/validations";
 
+
 function App() {
   // const [formData, setFormData] = useState({});
   // const handleChange = (e) => {
@@ -25,8 +26,6 @@ function App() {
       store.dispatch(setErrors(validateErrors));
     }
   };
-
-  console.log("error", errors);
 
   return (
     <div className="react-form">
