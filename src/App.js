@@ -17,9 +17,9 @@ function App() {
   const { firstName, lastName, errors } = useSelector(
     (store) => store?.userSliceInfo
   );
-
+ 
   const handleChange = (e) => {
-    e.preventDefault();
+    e.preventDefault(); 
     const validateErrors = validate(firstName, lastName);
     if (Object.keys(validateErrors).length > 0) {
       store.dispatch(setErrors(validateErrors));
