@@ -2,8 +2,8 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   mainCard: {
-    fullName: "",
-    middleName: "",
+    fullName: "Test",
+    middleName: "Test",
     suffix: "",
   },
   editCard: {
@@ -27,6 +27,7 @@ const proveSlice = createSlice({
       // for updating the edit info in main card
       state.mainCard = { ...state.editCard };
     },
+ 
   },
 });
 
