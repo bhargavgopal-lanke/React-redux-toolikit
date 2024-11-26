@@ -8,7 +8,7 @@ const EditMainComponent = () => {
   const navigate = useNavigate();
 
   const editCard = useSelector((state) => {
-    return console.log("state", state), state.ProveMainInfo.editCard;
+    return state.ProveMainInfo.editCard;
   });
 
   const handleChange = (e) => {
