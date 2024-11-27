@@ -6,9 +6,7 @@ const ProveMain = () => {
   const { fullName, middleName } = useSelector(
     (state) => state?.ProveMainInfo?.mainCard
   );
-
-  console.log("prove main data", fullName, middleName);
-
+  
   return (
     <div className="prove-main-card">
       <div className="card-sec">

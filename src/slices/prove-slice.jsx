@@ -27,7 +27,6 @@ const proveSlice = createSlice({
       // for updating the edit info in main card
       state.mainCard = { ...state.editCard };
     },
- 
   },
 });
 
