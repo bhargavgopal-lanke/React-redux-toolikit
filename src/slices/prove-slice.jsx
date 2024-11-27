@@ -2,8 +2,8 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   mainCard: {
-    fullName: "",
-    middleName: "",
+    fullName: "Test",
+    middleName: "Test",
     suffix: "",
   },
   editCard: {
